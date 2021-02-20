@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		637ED4BB25E148930042F1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637ED4BA25E148930042F1D0 /* AppDelegate.swift */; };
 		637ED4BD25E148930042F1D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637ED4BC25E148930042F1D0 /* SceneDelegate.swift */; };
-		637ED4BF25E148930042F1D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637ED4BE25E148930042F1D0 /* ViewController.swift */; };
 		637ED4C225E148930042F1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637ED4C025E148930042F1D0 /* Main.storyboard */; };
 		637ED4C425E148980042F1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637ED4C325E148980042F1D0 /* Assets.xcassets */; };
 		637ED4C725E148980042F1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637ED4C525E148980042F1D0 /* LaunchScreen.storyboard */; };
 		637ED4D225E148980042F1D0 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637ED4D125E148980042F1D0 /* FlixTests.swift */; };
 		637ED4DD25E148990042F1D0 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637ED4DC25E148990042F1D0 /* FlixUITests.swift */; };
+		637ED4EE25E14A390042F1D0 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637ED4ED25E14A390042F1D0 /* MoviesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		637ED4B725E148930042F1D0 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		637ED4BA25E148930042F1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		637ED4BC25E148930042F1D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		637ED4BE25E148930042F1D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		637ED4C125E148930042F1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		637ED4C325E148980042F1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		637ED4C625E148980042F1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		637ED4D825E148990042F1D0 /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		637ED4DC25E148990042F1D0 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		637ED4DE25E148990042F1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637ED4ED25E14A390042F1D0 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				637ED4BA25E148930042F1D0 /* AppDelegate.swift */,
 				637ED4BC25E148930042F1D0 /* SceneDelegate.swift */,
-				637ED4BE25E148930042F1D0 /* ViewController.swift */,
 				637ED4C025E148930042F1D0 /* Main.storyboard */,
 				637ED4C325E148980042F1D0 /* Assets.xcassets */,
 				637ED4C525E148980042F1D0 /* LaunchScreen.storyboard */,
 				637ED4C825E148980042F1D0 /* Info.plist */,
+				637ED4ED25E14A390042F1D0 /* MoviesViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637ED4BF25E148930042F1D0 /* ViewController.swift in Sources */,
 				637ED4BB25E148930042F1D0 /* AppDelegate.swift in Sources */,
 				637ED4BD25E148930042F1D0 /* SceneDelegate.swift in Sources */,
+				637ED4EE25E14A390042F1D0 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
