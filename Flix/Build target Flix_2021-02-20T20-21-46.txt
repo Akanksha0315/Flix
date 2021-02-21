@@ -1,0 +1,4 @@
+
+Showing Recent Issues
+Capabilities for Signing & Capabilities may not function correctly because its entitlements use a placeholder team ID. To resolve this, select a development team in the Flix editor.
+
