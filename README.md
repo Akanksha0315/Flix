@@ -46,9 +46,12 @@ This Final App Walkthrough contains
 2. The list of movies now playing which user can scoll through 
 3. The list of movies contains a title, synopsis and poster image of the movie
 
-<img src=http://g.recordit.co/L6AUg0RSrq.gif width=250><br>
+<img src=http://g.recordit.co/BdcTalsICW.gif width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
-1. Multi line synopsis 
-2. Uploading Poster images
+##### 1. Multi line synopsis (resolved)
+Faced issues with obtaining multiple lines of text for the synopsis. To resolve this issue, removed all constraints on the SynopsisLabel label.
+
+##### 2. Uploading Poster images
+Implemented a lot of new concepts. Took time understanding the use of CocoaPod. 
