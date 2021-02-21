@@ -54,5 +54,5 @@ Describe any challenges encountered while building the app.
 #### 1. Multi line synopsis (resolved)
 Faced issues with obtaining multiple lines of text for the synopsis. To resolve this issue, removed all constraints on the SynopsisLabel label.
 
-#### 2. Uploading Poster images
+#### 2. Uploading Poster images (resolved)
 Implemented a lot of new concepts. Took time understanding the use of CocoaPod. 
