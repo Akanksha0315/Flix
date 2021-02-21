@@ -39,13 +39,6 @@
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFf-MB-c9L">
-                                                    <rect key="frame" x="152" y="52" width="258" height="122"/>
-                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wil-04-DvT">
                                                     <rect key="frame" x="30" y="16" width="109" height="157"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -53,22 +46,25 @@
                                                         <constraint firstAttribute="width" constant="109" id="Tl4-va-bKq"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFf-MB-c9L">
+                                                    <rect key="frame" x="147" y="52" width="263" height="121"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="5" id="0ZZ-D1-OWj"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="centerY" secondItem="Jgg-Zk-1Lu" secondAttribute="centerY" constant="-1" id="Bag-oB-BiC"/>
-                                                <constraint firstItem="the-N5-z7v" firstAttribute="trailing" secondItem="EFf-MB-c9L" secondAttribute="trailing" id="FFH-Zy-JoM"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="top" secondItem="the-N5-z7v" secondAttribute="top" constant="-1" id="FwP-1y-8VM"/>
-                                                <constraint firstItem="EFf-MB-c9L" firstAttribute="top" secondItem="the-N5-z7v" secondAttribute="bottom" constant="8" id="JcI-qb-Vio"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="5" id="X7n-sU-XNX"/>
-                                                <constraint firstItem="EFf-MB-c9L" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="41" id="Xos-Y3-y2F"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="leading" secondItem="Jgg-Zk-1Lu" secondAttribute="leadingMargin" constant="10" id="e41-8n-su5"/>
                                                 <constraint firstItem="the-N5-z7v" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="6" id="hs6-h7-2W4"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="5" id="jQQ-SP-ubg"/>
                                                 <constraint firstItem="the-N5-z7v" firstAttribute="leading" secondItem="wil-04-DvT" secondAttribute="trailing" constant="13" id="oNw-kz-hL1"/>
-                                                <constraint firstItem="the-N5-z7v" firstAttribute="leading" secondItem="EFf-MB-c9L" secondAttribute="leading" id="q7l-pS-e4w"/>
-                                                <constraint firstItem="wil-04-DvT" firstAttribute="bottom" secondItem="EFf-MB-c9L" secondAttribute="bottom" constant="-1" id="yrV-Lx-FN6"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
