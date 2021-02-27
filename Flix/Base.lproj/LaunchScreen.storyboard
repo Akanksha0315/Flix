@@ -20,10 +20,7 @@
                                 <rect key="frame" x="133" y="303" width="138" height="139"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5k-fh-MUW">
-                                <rect key="frame" x="143" y="465" width="126" height="71"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="71" id="qNR-FW-uwB"/>
-                                </constraints>
+                                <rect key="frame" x="176" y="465" width="58" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" systemColor="systemGray3Color"/>
@@ -32,26 +29,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
                         <constraints>
-                            <constraint firstItem="iXW-me-TIU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="259" id="14M-bw-L96"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iXW-me-TIU" secondAttribute="bottom" constant="420" id="6kf-iS-sIS"/>
-                            <constraint firstItem="g5k-fh-MUW" firstAttribute="top" secondItem="iXW-me-TIU" secondAttribute="bottom" constant="23" id="C9r-xa-r4m"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g5k-fh-MUW" secondAttribute="bottom" constant="326" id="COF-9W-QWX"/>
-                            <constraint firstItem="g5k-fh-MUW" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="421" id="KDg-OZ-sa3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iXW-me-TIU" secondAttribute="trailing" constant="143" id="KSq-bs-S6Q"/>
-                            <constraint firstItem="g5k-fh-MUW" firstAttribute="top" secondItem="iXW-me-TIU" secondAttribute="bottom" constant="23" id="KvH-Ee-NBk"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="iXW-me-TIU" secondAttribute="trailing" constant="123" id="MKm-rs-Jb7"/>
-                            <constraint firstItem="iXW-me-TIU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="ZB5-zD-UdU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g5k-fh-MUW" secondAttribute="trailing" constant="145" id="afy-Qd-Su8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iXW-me-TIU" secondAttribute="bottom" constant="420" id="cbY-YE-kFO"/>
-                            <constraint firstItem="g5k-fh-MUW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="421" id="dhW-Px-ktT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g5k-fh-MUW" secondAttribute="bottom" constant="326" id="gVp-d3-y7r"/>
-                            <constraint firstItem="iXW-me-TIU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="259" id="hfZ-vN-6kP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g5k-fh-MUW" secondAttribute="trailing" constant="145" id="js2-iC-YRE"/>
-                            <constraint firstItem="g5k-fh-MUW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="r53-V2-sdx"/>
-                            <constraint firstItem="iXW-me-TIU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="113" id="rgp-RE-ZNp"/>
-                            <constraint firstItem="g5k-fh-MUW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="421" id="v2p-sb-ylD"/>
-                            <constraint firstItem="g5k-fh-MUW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="voU-iy-mik"/>
-                            <constraint firstItem="g5k-fh-MUW" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="421" id="x8l-Qe-14s"/>
+                            <constraint firstItem="g5k-fh-MUW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="176" id="0HC-hb-eJI"/>
+                            <constraint firstItem="g5k-fh-MUW" firstAttribute="top" secondItem="iXW-me-TIU" secondAttribute="bottom" constant="23" id="RFJ-ct-2RA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g5k-fh-MUW" secondAttribute="bottom" constant="349" id="b3T-ft-gC5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="g5k-fh-MUW" secondAttribute="trailing" id="gJm-60-UdM"/>
+                            <constraint firstItem="iXW-me-TIU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="t3x-BN-nHG"/>
                         </constraints>
                     </view>
                 </viewController>

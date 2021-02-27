@@ -28,13 +28,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="443" height="191"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="the-N5-z7v">
-                                                    <rect key="frame" x="152" y="17" width="258" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="the-N5-z7v">
+                                                    <rect key="frame" x="152" y="17" width="258" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="27" id="G2d-oZ-vKv"/>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="258" id="gFp-NU-LGl"/>
-                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -59,12 +56,9 @@
                                             <constraints>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="5" id="0ZZ-D1-OWj"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="centerY" secondItem="Jgg-Zk-1Lu" secondAttribute="centerY" constant="-1" id="Bag-oB-BiC"/>
-                                                <constraint firstItem="wil-04-DvT" firstAttribute="top" secondItem="the-N5-z7v" secondAttribute="top" constant="-1" id="FwP-1y-8VM"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="5" id="X7n-sU-XNX"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="leading" secondItem="Jgg-Zk-1Lu" secondAttribute="leadingMargin" constant="10" id="e41-8n-su5"/>
-                                                <constraint firstItem="the-N5-z7v" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="6" id="hs6-h7-2W4"/>
                                                 <constraint firstItem="wil-04-DvT" firstAttribute="top" secondItem="Jgg-Zk-1Lu" secondAttribute="topMargin" constant="5" id="jQQ-SP-ubg"/>
-                                                <constraint firstItem="the-N5-z7v" firstAttribute="leading" secondItem="wil-04-DvT" secondAttribute="trailing" constant="13" id="oNw-kz-hL1"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -79,6 +73,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Sk0-bp-eca" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KjT-tF-1yf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Sk0-bp-eca" secondAttribute="trailing" constant="-35" id="kre-BY-Ui2"/>
@@ -148,6 +143,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mh6-Aj-JKS">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" systemColor="systemRedColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -168,6 +167,9 @@
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
