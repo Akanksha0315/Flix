@@ -66,6 +66,7 @@
                                             <outlet property="posterView" destination="wil-04-DvT" id="1JC-cH-o08"/>
                                             <outlet property="synopsisLabel" destination="EFf-MB-c9L" id="Xkd-E1-Vre"/>
                                             <outlet property="titleLabel" destination="the-N5-z7v" id="s4W-AJ-FyW"/>
+                                            <segue destination="fCL-Vb-hsA" kind="show" id="3XT-Fc-2jZ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -135,6 +136,22 @@
             </objects>
             <point key="canvasLocation" x="579.71014492753625" y="93.75"/>
         </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="ILh-ZU-8HN">
+            <objects>
+                <viewController id="fCL-Vb-hsA" customClass="MovieDetailsViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="czr-sE-Jz9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1sd-rL-eyF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vwg-7i-OAm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ife-GO-Fst" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="94"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="PN5-sq-JGw">
             <objects>
@@ -143,8 +160,13 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mh6-Aj-JKS">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" systemColor="systemRedColor"/>
                         <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
