@@ -64,7 +64,8 @@ Initial Walkthrough
 <img src=http://g.recordit.co/ttOqOrXD3a.gif width=250><br>
 
 Includes Bonus Feature 1 
-<img src=http://g.recordit.co/ttOqOrXD3a.gif width=250><br>
+
+<img src=http://g.recordit.co/Dz2im1jXyP.gif width=250><br>
 
 ### Notes
 Resizing images in Movie Grid Screen
