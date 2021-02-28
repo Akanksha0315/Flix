@@ -186,6 +186,22 @@
             </objects>
             <point key="canvasLocation" x="-213" y="1472"/>
         </scene>
+        <!--Superhero Details View Controller-->
+        <scene sceneID="5c5-2V-hc7">
+            <objects>
+                <viewController id="Tki-qJ-e7z" customClass="SuperheroDetailsViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gUv-ri-e78">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0ZQ-Nk-puc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xIb-5H-Amp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="avg-yB-kek" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1145" y="1472"/>
+        </scene>
         <!--Now Playing-->
         <scene sceneID="PN5-sq-JGw">
             <objects>
@@ -197,7 +213,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" systemColor="systemRedColor"/>
+                        <color key="barTintColor" name="AccentColor"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
@@ -249,6 +265,7 @@
                                         <size key="customSize" width="188" height="269"/>
                                         <connections>
                                             <outlet property="posterView" destination="yJU-c7-Qta" id="EDy-fE-YMk"/>
+                                            <segue destination="Tki-qJ-e7z" kind="show" id="isr-QD-2yF"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -322,9 +339,6 @@
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
