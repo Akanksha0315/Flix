@@ -29,10 +29,6 @@ This Initial App Walkthrough contains
 
 <img src=http://g.recordit.co/bQhviwGxbX.gif width=250><br>
 
-This App Walkthrough contains an Updated Version of the Application display on an IPhone 11 Simulation 
-
-<img src=http://g.recordit.co/D77dmsb7Ol.gif width=250><br>
-
 This Final App Walkthrough contains 
 1. The App Icon 
 2. The Launch Screen of the application.
@@ -50,8 +46,6 @@ Faced issues with obtaining multiple lines of text for the synopsis. To resolve 
 Implemented a lot of new concepts. Took time understanding the use of CocoaPod. 
 
 
-
-
 ## Flix Part 2
 
 ### User Stories
@@ -61,11 +55,15 @@ Implemented a lot of new concepts. Took time understanding the use of CocoaPod.
 - [X] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
-- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [X] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
+Initial Walkthrough
 
+<img src=http://g.recordit.co/ttOqOrXD3a.gif width=250><br>
+
+Includes Bonus Feature 1 
 <img src=http://g.recordit.co/ttOqOrXD3a.gif width=250><br>
 
 ### Notes
